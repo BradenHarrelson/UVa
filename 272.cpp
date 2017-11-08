@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 int main(){
+	ios_base::sync_with_stdio(0); cin.tie(0);
 	string line;
 	bool flag = true;
 	while(getline(cin, line)){
